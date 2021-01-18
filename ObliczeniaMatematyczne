@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class ObliczeniaMatematyczne{
+    public static void main(String [] args){    
+      
+    }
+    
+    private static void potegowanie(){
+		Scanner sc = new Sscanner(System.in);
+		System.out.println("Podaj liczbę: ");
+		float podstawa = sc.nextFloat();
+		System.out.println("Podaj potęgę do której chcesz podnieść "+podstawa+" : ");
+		float wykladnik = sc.nextFloat();
+		System.out.println(""+podstawa+"^"+wykladnik+" = "+Math.pow(podstawa,wykladnik));
+    }
+} 
