@@ -31,6 +31,6 @@ public class Zad3{
           System.out.println("II stopien otylosci");
         }else if(40 <= ts_bmi){
           System.out.println("Otylosc skrajna");    
-      }      
-   }
+        }      
+    }
 }
